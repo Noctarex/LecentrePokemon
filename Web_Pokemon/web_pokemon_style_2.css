@@ -1,0 +1,239 @@
+/* Information primaire */
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 3px;
+}
+body {
+   background-color : #f0f0e6 ;
+  color : #83762a ;
+}
+h1{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* ------------------------------ */
+
+/* Header */
+.head_div{
+  display: flex;
+  background-color :rgb(173, 167, 132);
+  width: 100%;
+  height: 160px;
+  padding: 35px;
+
+}
+.titre_head_div{
+  border-radius: 10px;
+  background-color :rgb(211, 206, 176);
+  width: 70%;
+  height: 90px;
+  margin-left: 35px;
+}
+.titre_head_text{
+  font-size: 60px;
+  margin-left: 20px;
+}
+button {
+  width: 200px;
+  font-size: 2.1rem;
+  line-height: 2;
+  border-radius: 20px;
+  color : #6b5e16;
+  background-image: linear-gradient(to bottom right, rgb(226, 222, 201), rgb(211, 206, 176));
+  
+}
+button:focus,
+button:hover {
+  background-image: linear-gradient(to bottom right, rgb(245, 229, 176),rgb(221, 210, 147));
+}
+/* ------------------------------ */
+
+/* Main */
+/* Partie 1 : barre de recherche*/
+
+.barre_de_recherche_div{
+  display: flex;
+  background-color :rgb(173, 167, 132);
+  width: 20%;
+  height: 75px;
+  padding: 15px;
+  border-radius: 5px;
+   margin-left: 38%;
+}
+.interieur_barre_div{   
+    display: flex;
+  border-radius: 10px;
+  background-color :rgb(211, 206, 176);
+  width: 90%;
+  height: 45px;
+  margin-left: 15px;
+  font-size: 32px;
+}
+.loupe_img {
+    font-size: 1.1rem;
+    box-shadow: 0px 0px 0px rgb(0, 0, 0);
+}
+.loupe_img:hover{
+    transform: scale(0.99);
+}
+/* ------------------------------ */
+
+.filtrs_categories_div{
+
+  background-color :rgb(173, 167, 132);
+  width: 100%;
+  height: 130px;
+  padding: 15px;
+  border-radius: 5px;
+}
+.filtrs_categories_texte{
+  border-radius: 10px;
+  background-color :rgb(211, 206, 176);
+  width: 18%;
+  height: 35px;
+  margin-left: 15px;
+  font-size: 20px;
+}
+.bouton_filtres_categories_div{   
+    display: flex;
+    margin-top: 20px;
+}
+.filtre_main_bouton{
+  width: 125px;
+  font-size: 1.1rem;
+  line-height: 1;
+  border-radius: 30px;
+  color : #6b5e16;
+  background-image: linear-gradient(to bottom right, rgb(226, 222, 201), rgb(211, 206, 176)); 
+}
+/* ------------------------------ */
+
+/* Partie 3 : Cartes */
+.carte_div{
+  width: 100%;
+  height: 700px;
+}
+.carte_placement_div {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  padding: 35px;
+  background-color :rgb(228, 224, 206);
+  text-align: center;
+}
+img{
+  border-radius: 20px;
+  box-shadow: 5px 5px 11px rgb(0, 0, 0);
+}
+img:hover{
+    transform: scale(1.05);
+}
+.carte_1 {
+  width: 19%;
+  height: 20px;
+}
+.carte_2 {
+  width: 19%;
+  height: 20px;
+}
+.carte_3 {
+  width: 19%;
+  height: 20px;
+}
+.carte_4 {
+  width: 19%;
+  height: 20px;
+}
+.carte_5 {
+  width: 19%;
+  height: 20px;
+}
+.carte_6 {
+  width: 19%;
+  height: 20px;
+}
+.carte_7 {
+  width: 19%;
+  height: 20px;
+}
+.carte_8 {
+  width: 19%;
+  height: 20px;
+}
+.carte_9 {
+  width: 19%;
+  height: 20px;
+}
+.carte_10 {
+  width: 19%;
+  height: 20px;
+}
+
+a{
+  color: #83762a;
+}
+a:focus,
+a:hover {
+  color: rgb(255, 102, 0);
+}
+
+/* ------------------------------ */
+
+/* Partie 3 : Cartes */
+.espace_div{
+  width: 100%;
+  height: 600px;
+}
+/* ------------------------------ */
+
+/* Footer */
+.foot_div{
+  display: flex;
+  background-color :rgb(173, 167, 132);
+  width: 100%;
+  height: 160px;
+  padding: 35px;
+}
+.contacte_foot_texte{
+  border-radius: 10px;
+  background-color :rgb(211, 206, 176);
+  width: 45%;
+  height: 90px;
+  margin-left: 35px;
+  font-size: 25px;
+  text-align: center;
+}
+.droit_foot_texte{
+  border-radius: 10px;
+  background-color :rgb(211, 206, 176);
+  width: 45%;
+  height: 90px;
+  margin-left: 35px;
+  font-size: 30px;
+  text-align: center;
+}
+.foot_bouton{
+  width: 200px;
+  font-size: 1.1rem;
+  line-height: 2;
+  border-radius: 30px;
+  color : #6b5e16;
+  background-image: linear-gradient(to bottom right, rgb(226, 222, 201), rgb(211, 206, 176));
+  
+}
+/* ------------------------------ */
